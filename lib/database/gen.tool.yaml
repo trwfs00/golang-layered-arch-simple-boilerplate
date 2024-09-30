@@ -1,0 +1,23 @@
+# Use this script to gen models
+# gentool -c "./lib/database/gen.tool.yaml"
+
+version: "0.1"
+database:
+  # consult[https://gorm.io/docs/connecting_to_the_database.html]"
+  dsn : "host=localhost user=postgres password=177177 dbname=test_db port=5432 sslmode=disable TimeZone=Asia/Bangkok"
+  # input mysql or postgres or sqlite or sqlserver. consult[https://gorm.io/docs/connecting_to_the_database.html]
+  db  : "postgres"
+  # # specify a directory for output
+  outPath :  "./lib/database/entity"
+  # generate unit test for query code
+  withUnitTest  : false
+  # generated model code's package name
+  modelPkgName  : "entity"
+  # generate with pointer when field is nullable
+  fieldNullable : true
+  # generate field with gorm index tag
+  fieldWithIndexTag : false
+  # generate field with gorm column type tag
+  fieldWithTypeTag  : false
+  # only generate models (without query file)
+  onlyModel : true
