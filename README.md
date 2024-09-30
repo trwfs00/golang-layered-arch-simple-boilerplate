@@ -44,12 +44,12 @@ This project is a boilerplate for creating a Go-based web service using the Go F
 ```
 
 ### Key Components
-- Handlers (api/handler): Define the HTTP handlers.
-- Services (api/service): Contains the business logic and queries.
-- Repositories (api/repository): Manages data access, performs CRUD operations.
-- Database (lib/database): Manages database connection and migrations.
-- Environment (lib/environment): Manages environment variables with Viper.
-- Migration (lib/database/gen.tool.yaml): Contains auto-generated yaml config using GORM Gen.
+- **Handlers** (api/handler): Define the HTTP handlers.
+- **Services** (api/service): Contains the business logic and queries.
+- **Repositories** (api/repository): Manages data access, performs CRUD operations.
+- **Database** (lib/database): Manages database connection and migrations.
+- **Environment** (lib/environment): Manages environment variables with Viper.
+- **Migration** (lib/database/gen.tool.yaml): Contains auto-generated yaml config using GORM Gen.
 
 ### Prerequisites
 - Go 1.18+
