@@ -155,7 +155,7 @@ In this command:
 - `--name myPostgreSQL`: Names the container `myPostgreSQL`.
 - `-e POSTGRES_USER=postgres`: Sets the PostgreSQL user.
 - `-e POSTGRES_PASSWORD=your_db_password`: Sets the password for the PostgreSQL user.
-- `-e POSTGRES_DB=test_db`: Creates a default database named mydb.
+- `-e POSTGRES_DB=test_db`: Creates a default database named test_db.
 - `-p 5432:5432`: Maps port 5432 on your host to port 5432 in the container (the default PostgreSQL port).
 - `-d`: Runs the container in detached mode.
 
