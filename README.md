@@ -7,7 +7,7 @@ This project is a boilerplate for creating a Go-based web service using the Go F
 - Repositories: Interacts with the database.
 - Database: Uses GORM for ORM with PostgreSQL.
 - Environment Configuration: Uses Viper for loading environment variables.
-- Code Generation: Uses GORM Gen to generate models and queries.
+- Code Generation: Uses GORM Gen to generate models/entity.
 
 ### Project Structure
 ```bash
