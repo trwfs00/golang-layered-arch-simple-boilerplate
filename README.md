@@ -172,7 +172,7 @@ You can connect to the PostgreSQL database running in the Docker container using
 $ docker exec -it myPostgreSQL psql -U postgres -d test_db
 ```
 In this command:
-- `docker exec -it myPostgreSQL`: Executes a command in the running my_postgres container.
+- `docker exec -it myPostgreSQL`: Executes a command in the running myPostgreSQL container.
 - `psql -U postgres -d test_db`: Connects to the mydb database as the myuser user.
 
 #### Step 5: Update Your Application Configuration
